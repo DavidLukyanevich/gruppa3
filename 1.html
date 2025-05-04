@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Готель "Мрія" - Вхід</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="Логотип готелю" id="logo-img">
+                    </a>
+                </div>
+                <nav class="nav">
+                    <a href="index.html" class="nav-link">Головна</a>
+                    <a href="rooms.html" class="nav-link">Номери</a>
+                    <a href="services.html" class="nav-link">Послуги</a>
+                    <a href="login.html" class="nav-link active">Вхід</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="login-section">
+            <div class="container">
+                <div class="login-form">
+                    <h2>Вхід в особистий кабінет</h2>
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <label for="email">Електронна пошта</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Пароль</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                        <div class="form-options">
+                            <div class="remember-me">
+                                <input type="checkbox" id="remember" name="remember">
+                                <label for="remember">Запам'ятати мене</label>
+                            </div>
+                            <a href="#" class="forgot-password">Забули пароль?</a>
+                        </div>
+                        <button type="submit" class="login-button">Увійти</button>
+                    </form>
+                    <div class="register-link">
+                        <p>Ще не зареєстровані? <a href="#">Створити акаунт</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p>Готель "Мрія"</p>
+                    <p>м. Київ, вул. Готельна, 123</p>
+                    <p>+380 12 345 6789</p>
+                </div>
+                <div class="footer-links">
+                    <a href="index.html">Головна</a>
+                    <a href="rooms.html">Номери</a>
+                    <a href="services.html">Послуги</a>
+                    <a href="login.html">Вхід</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
